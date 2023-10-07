@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "QRcodeGenerator",
+    "name": "QR Code Generator",
     "slug": "QRcodeGenerator",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.predaking.QRcodeGenerator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90e286bd-0e06-4fa1-843d-752b2a864f3b"
+      }
     }
   }
 }
